@@ -26,53 +26,53 @@ str.set("Just like Music")
 #Functions for sound
 def value_Cs():
     str.set("C#")
-    sound = pygame.mixer.Sound("C#.wav")
+    sound = pygame.mixer.Sound("Cs.mp3")
     sound.play()
 
 
 def value_A():
     str.set("A")
-    sound = pygame.mixer.Sound("A.wav")
+    sound = pygame.mixer.Sound("A.mp3")
     sound.play()
 
 def value_B():
     str.set("B")
-    sound = pygame.mixer.Sound("B.wav")
+    sound = pygame.mixer.Sound("B.mp3")
     sound.play()
 
 def value_C():
     str.set("C")
-    sound = pygame.mixer.Sound("C.wav")
+    sound = pygame.mixer.Sound("C.mp3")
     sound.play()
 
 def value_Bb():
     str.set("Bb")
-    sound = pygame.mixer.Sound("Bb.wav")
+    sound = pygame.mixer.Sound("B4.mp3")
     sound.play()
 
 def value_Gs():
     str.set("G#")
-    sound = pygame.mixer.Sound("G#.wav")
+    sound = pygame.mixer.Sound("Gs.mp3")
     sound.play()
 
 def value_Ds():
     str.set("D#")
-    sound = pygame.mixer.Sound("D#.wav")
+    sound = pygame.mixer.Sound("Ds.mp3")
     sound.play()
 
 def value_Fs():
     str.set("F#")
-    sound = pygame.mixer.Sound("F#.wav")
+    sound = pygame.mixer.Sound("Fs.mp3")
     sound.play()
 
 def value_G():
     str.set("G")
-    sound = pygame.mixer.Sound("G.wav")
+    sound = pygame.mixer.Sound("G.mp3")
     sound.play()
 
 def value_D():
     str.set("D")
-    sound = pygame.mixer.Sound("D.wav")
+    sound = pygame.mixer.Sound("D.mp3")
     sound.play()
 
 def value_E1():
@@ -82,12 +82,12 @@ def value_E1():
 
 def value_E():
     str.set("E")
-    sound = pygame.mixer.Sound("E!.mp3")
+    sound = pygame.mixer.Sound("E4.mp3")
     sound.play()
 
 def value_F():
     str.set("F")
-    sound = pygame.mixer.Sound("F!.mp3")
+    sound = pygame.mixer.Sound("F4.mp3")
     sound.play()
 
 def value_F1():
@@ -97,22 +97,22 @@ def value_F1():
 
 def value_C1():
     str.set("C1")
-    sound = pygame.mixer.Sound("C1.mp3")
+    sound = pygame.mixer.Sound("C.mp3")
     sound.play()
 
 def value_D1():
     str.set("D1")
-    sound = pygame.mixer.Sound("D1.mp3")
+    sound = pygame.mixer.Sound("D.mp3")
     sound.play()
 
 def value_Cs1():
     str.set("C#1")
-    sound = pygame.mixer.Sound("C#1.mp3")
+    sound = pygame.mixer.Sound("Cs4.mp3")
     sound.play()
 
 def value_Ds1():
     str.set("C#1")
-    sound = pygame.mixer.Sound("D#1.mp3")
+    sound = pygame.mixer.Sound("Ds4.mp3")
     sound.play()
 
 # Label
