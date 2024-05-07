@@ -190,5 +190,52 @@ btnF1 = Button(abc3, bd=4, width=4, height=6, text="F1", bg="white", fg="black",
             command=value_F1)
 btnF1.grid(row=0, column=10, padx=5, pady=5)
 
+
+def play_sound_key(event):
+    key = event.char.lower()  # Convert the pressed key to lowercase
+    if key == 'a':
+        value_A()
+    elif key == 'b':
+        value_B()
+    elif key == 'c':
+        value_C()
+    elif key == 'd':
+        value_D()
+    elif key == 'e':
+        value_E()
+    elif key == 'f':
+        value_F()
+    elif key == 'g':
+        value_G()
+    elif key == 'k':
+        value_A()
+    elif key == '1':
+        value_Bb()
+    elif key == '2':
+        value_Cs()
+    elif key == "3":
+        value_Ds()
+    elif key == '4':
+        value_Fs()
+    elif key == '5':
+        value_Gs()
+    elif key == '6':
+        value_E1()
+    # elif key == 'v':
+    #     value_F1()
+    # elif key == 'b':
+    #     value_G1()
+    # elif key == 'n':
+    #     value_A1()
+    # elif key == 'm':
+    #     value_B1()
+    # elif key == ',':
+    #     value_C1()
+    # elif key == '.':
+    #     value_D1()
+    # elif key == '/':
+    #     value_E2()
+
+root.bind('<KeyPress>', play_sound_key)
 # Mainloop
 root.mainloop()
